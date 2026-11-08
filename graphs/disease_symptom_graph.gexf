@@ -1,0 +1,2805 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-08-01">
+    <creator>NetworkX 2.8.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="frequency" type="long" />
+      <attribute id="2" title="kappa" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Fungal infection" label="Fungal infection">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Allergy" label="Allergy">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="GERD" label="GERD">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Chronic cholestasis" label="Chronic cholestasis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Drug Reaction" label="Drug Reaction">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Peptic ulcer diseae" label="Peptic ulcer diseae">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="AIDS" label="AIDS">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Diabetes" label="Diabetes">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Gastroenteritis" label="Gastroenteritis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Bronchial Asthma" label="Bronchial Asthma">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hypertension" label="Hypertension">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Migraine" label="Migraine">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Cervical spondylosis" label="Cervical spondylosis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Paralysis (brain hemorrhage)" label="Paralysis (brain hemorrhage)">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Jaundice" label="Jaundice">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Malaria" label="Malaria">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Chicken pox" label="Chicken pox">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Dengue" label="Dengue">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Typhoid" label="Typhoid">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="hepatitis A" label="hepatitis A">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hepatitis B" label="Hepatitis B">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hepatitis C" label="Hepatitis C">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hepatitis D" label="Hepatitis D">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hepatitis E" label="Hepatitis E">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Alcoholic hepatitis" label="Alcoholic hepatitis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Tuberculosis" label="Tuberculosis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Common Cold" label="Common Cold">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Pneumonia" label="Pneumonia">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Dimorphic hemmorhoids(piles)" label="Dimorphic hemmorhoids(piles)">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Heart attack" label="Heart attack">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Varicose veins" label="Varicose veins">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hypothyroidism" label="Hypothyroidism">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hyperthyroidism" label="Hyperthyroidism">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Hypoglycemia" label="Hypoglycemia">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Osteoarthristis" label="Osteoarthristis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Arthritis" label="Arthritis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="(vertigo) Paroymsal  Positional Vertigo" label="(vertigo) Paroymsal  Positional Vertigo">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Acne" label="Acne">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Urinary tract infection" label="Urinary tract infection">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Psoriasis" label="Psoriasis">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="Impetigo" label="Impetigo">
+        <attvalues>
+          <attvalue for="0" value="disease" />
+        </attvalues>
+      </node>
+      <node id="enlarged_thyroid" label="enlarged_thyroid">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="blurred_and_distorted_vision" label="blurred_and_distorted_vision">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="cold_hands_and_feets" label="cold_hands_and_feets">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="silver_like_dusting" label="silver_like_dusting">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="brittle_nails" label="brittle_nails">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="mild_fever" label="mild_fever">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="polyuria" label="polyuria">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="mucoid_sputum" label="mucoid_sputum">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="skin_rash" label="skin_rash">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="lack_of_concentration" label="lack_of_concentration">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="inflammatory_nails" label="inflammatory_nails">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="spinning_movements" label="spinning_movements">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="unsteadiness" label="unsteadiness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="movement_stiffness" label="movement_stiffness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="skin_peeling" label="skin_peeling">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="toxic_look_(typhos)" label="toxic_look_(typhos)">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="burning_micturition" label="burning_micturition">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swelled_lymph_nodes" label="swelled_lymph_nodes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="bloody_stool" label="bloody_stool">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="dischromic _patches" label="dischromic _patches">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swollen_blood_vessels" label="swollen_blood_vessels">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="phlegm" label="phlegm">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="nausea" label="nausea">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="blister" label="blister">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="history_of_alcohol_consumption" label="history_of_alcohol_consumption">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="restlessness" label="restlessness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="increased_appetite" label="increased_appetite">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="headache" label="headache">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="muscle_wasting" label="muscle_wasting">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="cough" label="cough">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="sinus_pressure" label="sinus_pressure">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="blood_in_sputum" label="blood_in_sputum">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="dark_urine" label="dark_urine">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="pain_during_bowel_movements" label="pain_during_bowel_movements">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swollen_legs" label="swollen_legs">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="small_dents_in_nails" label="small_dents_in_nails">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="fluid_overload" label="fluid_overload">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="blackheads" label="blackheads">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="stiff_neck" label="stiff_neck">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="chest_pain" label="chest_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="joint_pain" label="joint_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="dizziness" label="dizziness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swelling_of_stomach" label="swelling_of_stomach">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="pus_filled_pimples" label="pus_filled_pimples">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="family_history" label="family_history">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="yellowing_of_eyes" label="yellowing_of_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="dehydration" label="dehydration">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="weight_gain" label="weight_gain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="high_fever" label="high_fever">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="abdominal_pain" label="abdominal_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="irritation_in_anus" label="irritation_in_anus">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="loss_of_appetite" label="loss_of_appetite">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="passage_of_gases" label="passage_of_gases">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="muscle_weakness" label="muscle_weakness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="diarrhoea" label="diarrhoea">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="cramps" label="cramps">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="scurring" label="scurring">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="drying_and_tingling_lips" label="drying_and_tingling_lips">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="itching" label="itching">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="weakness_of_one_body_side" label="weakness_of_one_body_side">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="chills" label="chills">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="prominent_veins_on_calf" label="prominent_veins_on_calf">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="constipation" label="constipation">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="sweating" label="sweating">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swelling_joints" label="swelling_joints">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="irregular_sugar_level" label="irregular_sugar_level">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="mood_swings" label="mood_swings">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="neck_pain" label="neck_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="acidity" label="acidity">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="fatigue" label="fatigue">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="receiving_blood_transfusion" label="receiving_blood_transfusion">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="pain_behind_the_eyes" label="pain_behind_the_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="shivering" label="shivering">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="acute_liver_failure" label="acute_liver_failure">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="redness_of_eyes" label="redness_of_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="throat_irritation" label="throat_irritation">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="obesity" label="obesity">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="back_pain" label="back_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="anxiety" label="anxiety">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="yellow_urine" label="yellow_urine">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="visual_disturbances" label="visual_disturbances">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="spotting_ urination" label="spotting_ urination">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="yellow_crust_ooze" label="yellow_crust_ooze">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="runny_nose" label="runny_nose">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="yellowish_skin" label="yellowish_skin">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="sunken_eyes" label="sunken_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="lethargy" label="lethargy">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="continuous_sneezing" label="continuous_sneezing">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="internal_itching" label="internal_itching">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="pain_in_anal_region" label="pain_in_anal_region">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="stomach_bleeding" label="stomach_bleeding">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="continuous_feel_of_urine" label="continuous_feel_of_urine">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="hip_joint_pain" label="hip_joint_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="coma" label="coma">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="swollen_extremeties" label="swollen_extremeties">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="nodal_skin_eruptions" label="nodal_skin_eruptions">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="painful_walking" label="painful_walking">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="depression" label="depression">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="puffy_face_and_eyes" label="puffy_face_and_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="fast_heart_rate" label="fast_heart_rate">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="muscle_pain" label="muscle_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="weight_loss" label="weight_loss">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="distention_of_abdomen" label="distention_of_abdomen">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="weakness_in_limbs" label="weakness_in_limbs">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="indigestion" label="indigestion">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="palpitations" label="palpitations">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="irritability" label="irritability">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="belly_pain" label="belly_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="excessive_hunger" label="excessive_hunger">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="loss_of_smell" label="loss_of_smell">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="patches_in_throat" label="patches_in_throat">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="knee_pain" label="knee_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="loss_of_balance" label="loss_of_balance">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="breathlessness" label="breathlessness">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="abnormal_menstruation" label="abnormal_menstruation">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="vomiting" label="vomiting">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="bruising" label="bruising">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="ulcers_on_tongue" label="ulcers_on_tongue">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="watering_from_eyes" label="watering_from_eyes">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="altered_sensorium" label="altered_sensorium">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="slurred_speech" label="slurred_speech">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="congestion" label="congestion">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="red_sore_around_nose" label="red_sore_around_nose">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="extra_marital_contacts" label="extra_marital_contacts">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="stomach_pain" label="stomach_pain">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="red_spots_over_body" label="red_spots_over_body">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="rusty_sputum" label="rusty_sputum">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="receiving_unsterile_injections" label="receiving_unsterile_injections">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="bladder_discomfort" label="bladder_discomfort">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="malaise" label="malaise">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+      <node id="foul_smell_of urine" label="foul_smell_of urine">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Fungal infection" target="skin_rash" id="0" weight="0.5360985392558065">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.072" />
+        </attvalues>
+      </edge>
+      <edge source="Fungal infection" target="dischromic _patches" id="1" weight="0.6890798786653187">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.378" />
+        </attvalues>
+      </edge>
+      <edge source="Fungal infection" target="itching" id="2" weight="0.548911598783117">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.098" />
+        </attvalues>
+      </edge>
+      <edge source="Fungal infection" target="nodal_skin_eruptions" id="3" weight="0.6890798786653187">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.378" />
+        </attvalues>
+      </edge>
+      <edge source="Allergy" target="chills" id="4" weight="0.5348040927034938">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.07" />
+        </attvalues>
+      </edge>
+      <edge source="Allergy" target="shivering" id="5" weight="0.6890798786653187">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.378" />
+        </attvalues>
+      </edge>
+      <edge source="Allergy" target="continuous_sneezing" id="6" weight="0.6439109122923908">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.288" />
+        </attvalues>
+      </edge>
+      <edge source="Allergy" target="watering_from_eyes" id="7" weight="0.6890798786653187">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.378" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="cough" id="8" weight="0.5349516409476203">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.07" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="chest_pain" id="9" weight="0.5168591166421429">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.034" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="acidity" id="10" weight="0.5678368982041836">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.188" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="vomiting" id="11" weight="0.4004041571517212">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.147" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="ulcers_on_tongue" id="12" weight="0.5990673748743469">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.251" />
+        </attvalues>
+      </edge>
+      <edge source="GERD" target="stomach_pain" id="13" weight="0.6013999611121916">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.203" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="nausea" id="14" weight="0.4542848366949933">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.091" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="yellowing_of_eyes" id="15" weight="0.4863994273443092">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.027" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="abdominal_pain" id="16" weight="0.46429620059897814">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="loss_of_appetite" id="17" weight="0.4537850233024491">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.092" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="itching" id="18" weight="0.5032097959944544">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.006" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="yellowish_skin" id="19" weight="0.47601258356272125">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.048" />
+        </attvalues>
+      </edge>
+      <edge source="Chronic cholestasis" target="vomiting" id="20" weight="0.40605907917112793">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.188" />
+        </attvalues>
+      </edge>
+      <edge source="Drug Reaction" target="skin_rash" id="21" weight="0.4916300758343474">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.036" />
+        </attvalues>
+      </edge>
+      <edge source="Drug Reaction" target="burning_micturition" id="22" weight="0.5913626136086619">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.235" />
+        </attvalues>
+      </edge>
+      <edge source="Drug Reaction" target="itching" id="23" weight="0.5361042572624289">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.072" />
+        </attvalues>
+      </edge>
+      <edge source="Drug Reaction" target="spotting_ urination" id="24" weight="0.6260813117062842">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.305" />
+        </attvalues>
+      </edge>
+      <edge source="Drug Reaction" target="stomach_pain" id="25" weight="0.5896718309119573">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.232" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="abdominal_pain" id="26" weight="0.4810447023956533">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.038" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="loss_of_appetite" id="27" weight="0.4409895161422016">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.065" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="passage_of_gases" id="28" weight="0.6303943236012562">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.261" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="internal_itching" id="29" weight="0.6303943236012562">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.261" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="indigestion" id="30" weight="0.5668953228081265">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.186" />
+        </attvalues>
+      </edge>
+      <edge source="Peptic ulcer diseae" target="vomiting" id="31" weight="0.42854406945567525">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.143" />
+        </attvalues>
+      </edge>
+      <edge source="AIDS" target="muscle_wasting" id="32" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="AIDS" target="high_fever" id="33" weight="0.4953443140497422">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.009" />
+        </attvalues>
+      </edge>
+      <edge source="AIDS" target="patches_in_throat" id="34" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="AIDS" target="extra_marital_contacts" id="35" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="blurred_and_distorted_vision" id="36" weight="0.5004317249248458">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.051" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="polyuria" id="37" weight="0.5755897929706308">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.151" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="restlessness" id="38" weight="0.5226070065744104">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.095" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="increased_appetite" id="39" weight="0.5755897929706308">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.151" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="irregular_sugar_level" id="40" weight="0.5469992276314839">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.144" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="fatigue" id="41" weight="0.3197312578903543">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.311" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="obesity" id="42" weight="0.5226070065744104">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.095" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="lethargy" id="43" weight="0.4801842834354795">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.01" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="weight_loss" id="44" weight="0.4801842834354795">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.01" />
+        </attvalues>
+      </edge>
+      <edge source="Diabetes" target="excessive_hunger" id="45" weight="0.4791672774485372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.008" />
+        </attvalues>
+      </edge>
+      <edge source="Gastroenteritis" target="dehydration" id="46" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Gastroenteritis" target="diarrhoea" id="47" weight="0.570753798208025">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.142" />
+        </attvalues>
+      </edge>
+      <edge source="Gastroenteritis" target="sunken_eyes" id="48" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Gastroenteritis" target="vomiting" id="49" weight="0.44266182143490374">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.062" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="mucoid_sputum" id="50" weight="0.6303943236012562">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.261" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="cough" id="51" weight="0.5023051054026887">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.057" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="family_history" id="52" weight="0.5989099294249179">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.198" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="high_fever" id="53" weight="0.4566595636017823">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.087" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="fatigue" id="54" weight="0.39860456351061185">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.15" />
+        </attvalues>
+      </edge>
+      <edge source="Bronchial Asthma" target="breathlessness" id="55" weight="0.5525853229822761">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.105" />
+        </attvalues>
+      </edge>
+      <edge source="Hypertension" target="lack_of_concentration" id="56" weight="0.6580366528038023">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.316" />
+        </attvalues>
+      </edge>
+      <edge source="Hypertension" target="headache" id="57" weight="0.46025164934375956">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.027" />
+        </attvalues>
+      </edge>
+      <edge source="Hypertension" target="chest_pain" id="58" weight="0.5010807363680485">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.055" />
+        </attvalues>
+      </edge>
+      <edge source="Hypertension" target="dizziness" id="59" weight="0.5601991219223681">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.173" />
+        </attvalues>
+      </edge>
+      <edge source="Hypertension" target="loss_of_balance" id="60" weight="0.5925401998352609">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.185" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="blurred_and_distorted_vision" id="61" weight="0.5348309507601543">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.07" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="headache" id="62" weight="0.4273991377590409">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.145" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="stiff_neck" id="63" weight="0.5573416506717852">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.115" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="acidity" id="64" weight="0.558598153331729">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.117" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="visual_disturbances" id="65" weight="0.58259099007381">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.165" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="depression" id="66" weight="0.556092709395576">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.112" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="indigestion" id="67" weight="0.558598153331729">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.117" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="irritability" id="68" weight="0.511636008135654">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.023" />
+        </attvalues>
+      </edge>
+      <edge source="Migraine" target="excessive_hunger" id="69" weight="0.5136307661021542">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.027" />
+        </attvalues>
+      </edge>
+      <edge source="Cervical spondylosis" target="dizziness" id="70" weight="0.5928026913854191">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.186" />
+        </attvalues>
+      </edge>
+      <edge source="Cervical spondylosis" target="neck_pain" id="71" weight="0.6200374681122452">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.24" />
+        </attvalues>
+      </edge>
+      <edge source="Cervical spondylosis" target="back_pain" id="72" weight="0.5855504413936631">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.224" />
+        </attvalues>
+      </edge>
+      <edge source="Cervical spondylosis" target="weakness_in_limbs" id="73" weight="0.622945091993603">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.299" />
+        </attvalues>
+      </edge>
+      <edge source="Cervical spondylosis" target="loss_of_balance" id="74" weight="0.5914518051922631">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.183" />
+        </attvalues>
+      </edge>
+      <edge source="Paralysis (brain hemorrhage)" target="headache" id="75" weight="0.47882717753228643">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.01" />
+        </attvalues>
+      </edge>
+      <edge source="Paralysis (brain hemorrhage)" target="weakness_of_one_body_side" id="76" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Paralysis (brain hemorrhage)" target="vomiting" id="77" weight="0.44266182143490374">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.062" />
+        </attvalues>
+      </edge>
+      <edge source="Paralysis (brain hemorrhage)" target="altered_sensorium" id="78" weight="0.6953183056725291">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.391" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="dark_urine" id="79" weight="0.5065645514223197">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.013" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="high_fever" id="80" weight="0.4217279089390005">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.157" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="abdominal_pain" id="81" weight="0.4504948639124241">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.099" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="itching" id="82" weight="0.49127620963333857">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.017" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="fatigue" id="83" weight="0.3852650691903492">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.229" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="yellowish_skin" id="84" weight="0.46294910179640725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.074" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="weight_loss" id="85" weight="0.5245825602968462">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.049" />
+        </attvalues>
+      </edge>
+      <edge source="Jaundice" target="vomiting" id="86" weight="0.38622754491017974">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.228" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="nausea" id="87" weight="0.41473010269001237">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.121" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="headache" id="88" weight="0.4158184944455449">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.118" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="high_fever" id="89" weight="0.39672790893900045">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.157" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="diarrhoea" id="90" weight="0.452726054613501">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.005" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="chills" id="91" weight="0.4510125835627212">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.048" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="sweating" id="92" weight="0.46627620963333855">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.017" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="muscle_pain" id="93" weight="0.5265531667916133">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.053" />
+        </attvalues>
+      </edge>
+      <edge source="Malaria" target="vomiting" id="94" weight="0.3612275449101797">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.228" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="mild_fever" id="95" weight="0.49093368006432486">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.032" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="skin_rash" id="96" weight="0.4214331713729915">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="swelled_lymph_nodes" id="97" weight="0.4920419777261044">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.034" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="headache" id="98" weight="0.37711567744378477">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.196" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="high_fever" id="99" weight="0.3522924371407092">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.245" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="loss_of_appetite" id="100" weight="0.3750465049150884">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.2" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="itching" id="101" weight="0.43709528702624834">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.076" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="fatigue" id="102" weight="0.3011415252211332">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.348" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="lethargy" id="103" weight="0.47275665623708574">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.004" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="red_spots_over_body" id="104" weight="0.5433378239331289">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.087" />
+        </attvalues>
+      </edge>
+      <edge source="Chicken pox" target="malaise" id="105" weight="0.46226079986884416">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.075" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="skin_rash" id="106" weight="0.3979772887201418">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.154" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="nausea" id="107" weight="0.37156306525544996">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.257" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="headache" id="108" weight="0.3732757804936635">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.253" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="joint_pain" id="109" weight="0.4146877658401336">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.121" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="high_fever" id="110" weight="0.3140017033148047">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.322" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="loss_of_appetite" id="111" weight="0.3707092991190002">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.259" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="chills" id="112" weight="0.3960514132271582">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.158" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="fatigue" id="113" weight="0.2450554315189775">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.46" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="pain_behind_the_eyes" id="114" weight="0.5482044077618755">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.096" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="back_pain" id="115" weight="0.5262131417966871">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.052" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="muscle_pain" id="116" weight="0.45112846155736286">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.048" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="vomiting" id="117" weight="0.2470535731516684">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.456" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="red_spots_over_body" id="118" weight="0.49650071654752825">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.043" />
+        </attvalues>
+      </edge>
+      <edge source="Dengue" target="malaise" id="119" weight="0.4116938048094964">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.127" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="toxic_look_(typhos)" id="120" weight="0.5386951103857435">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.127" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="nausea" id="121" weight="0.3751426990973078">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.2" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="headache" id="122" weight="0.3765296520885943">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.197" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="high_fever" id="123" weight="0.379711221998089">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.241" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="abdominal_pain" id="124" weight="0.3886853590794867">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.173" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="diarrhoea" id="125" weight="0.4543996133874086">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.041" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="chills" id="126" weight="0.4479223691878433">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.104" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="constipation" id="127" weight="0.5148331286264878">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.08" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="fatigue" id="128" weight="0.3278956170856674">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.344" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="belly_pain" id="129" weight="0.5386951103857435">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.127" />
+        </attvalues>
+      </edge>
+      <edge source="Typhoid" target="vomiting" id="130" weight="0.3016014578696979">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.347" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="mild_fever" id="131" weight="0.5197359079937526">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.039" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="nausea" id="132" weight="0.3751426990973078">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.2" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="dark_urine" id="133" weight="0.45343563794571073">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.043" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="joint_pain" id="134" weight="0.4357825229240494">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.078" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="yellowing_of_eyes" id="135" weight="0.44540088539104766">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.109" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="abdominal_pain" id="136" weight="0.3886853590794867">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.173" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="loss_of_appetite" id="137" weight="0.37445251969008153">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.201" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="diarrhoea" id="138" weight="0.4543996133874086">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.041" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="yellowish_skin" id="139" weight="0.4038815204758324">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.142" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="muscle_pain" id="140" weight="0.4983034652210369">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.003" />
+        </attvalues>
+      </edge>
+      <edge source="hepatitis A" target="vomiting" id="141" weight="0.3016014578696979">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.347" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="dark_urine" id="142" weight="0.44616843702579656">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.058" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="yellowing_of_eyes" id="143" weight="0.4365111289890052">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.127" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="abdominal_pain" id="144" weight="0.37827352548196214">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.193" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="loss_of_appetite" id="145" weight="0.3629934414057665">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.224" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="itching" id="146" weight="0.4288504260895223">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.092" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="fatigue" id="147" weight="0.2810694324175391">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.388" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="receiving_blood_transfusion" id="148" weight="0.5595865423591406">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.119" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="yellow_urine" id="149" weight="0.5317095084363769">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.113" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="yellowish_skin" id="150" weight="0.3944440806705081">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.161" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="lethargy" id="151" weight="0.4655566600397614">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.019" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="receiving_unsterile_injections" id="152" weight="0.5595865423591406">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.119" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis B" target="malaise" id="153" weight="0.4536680868680248">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.093" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="nausea" id="154" weight="0.47087534083080235">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.058" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="family_history" id="155" weight="0.5979415440155512">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.196" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="yellowing_of_eyes" id="156" weight="0.4701787563163114">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.007" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="loss_of_appetite" id="157" weight="0.47041236913907536">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.059" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="fatigue" id="158" weight="0.4267208588092757">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.147" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis C" target="yellowish_skin" id="159" weight="0.49127620963333857">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.017" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="nausea" id="160" weight="0.42622171926156927">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.148" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="dark_urine" id="161" weight="0.49641760491299897">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.007" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="joint_pain" id="162" weight="0.4798985167837627">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.04" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="yellowing_of_eyes" id="163" weight="0.46259769622078856">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.075" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="abdominal_pain" id="164" weight="0.4378158211800247">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.124" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="loss_of_appetite" id="165" weight="0.42563664890773967">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.149" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="fatigue" id="166" weight="0.36576957597845905">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.268" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="yellowish_skin" id="167" weight="0.45108889682256326">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.098" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis D" target="vomiting" id="168" weight="0.3668645926573785">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.266" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="nausea" id="169" weight="0.3530805704954383">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.244" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="dark_urine" id="170" weight="0.43967506126933154">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="joint_pain" id="171" weight="0.42081808591303216">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.108" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="yellowing_of_eyes" id="172" weight="0.4284020255111852">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.143" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="high_fever" id="173" weight="0.32547346715905345">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.299" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="abdominal_pain" id="174" weight="0.3967631191760669">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.206" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="loss_of_appetite" id="175" weight="0.38034955407912846">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.239" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="fatigue" id="176" weight="0.2624004513735765">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.425" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="acute_liver_failure" id="177" weight="0.5257514907545005">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.102" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="yellowish_skin" id="178" weight="0.3857715021674941">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.178" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="stomach_bleeding" id="179" weight="0.5533433508640122">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="coma" id="180" weight="0.5533433508640122">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Hepatitis E" target="vomiting" id="181" weight="0.26420388753724255">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.422" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="history_of_alcohol_consumption" id="182" weight="0.6091515729265968">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.218" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="fluid_overload" id="183" weight="0.6091515729265968">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.218" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="swelling_of_stomach" id="184" weight="0.6091515729265968">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.218" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="abdominal_pain" id="185" weight="0.46429620059897814">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="yellowish_skin" id="186" weight="0.47601258356272125">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.048" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="distention_of_abdomen" id="187" weight="0.6091515729265968">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.218" />
+        </attvalues>
+      </edge>
+      <edge source="Alcoholic hepatitis" target="vomiting" id="188" weight="0.40605907917112793">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.188" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="mild_fever" id="189" weight="0.49249076304019385">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.015" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="swelled_lymph_nodes" id="190" weight="0.4936528846441723">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.013" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="phlegm" id="191" weight="0.49249076304019385">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.015" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="cough" id="192" weight="0.42487311495493396">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.1" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="blood_in_sputum" id="193" weight="0.539113027409917">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.078" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="chest_pain" id="194" weight="0.42895296077192596">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.142" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="yellowing_of_eyes" id="195" weight="0.40785002265518805">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.184" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="high_fever" id="196" weight="0.291056897033949">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.368" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="loss_of_appetite" id="197" weight="0.35176098571584336">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.296" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="chills" id="198" weight="0.3830692992039956">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.184" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="sweating" id="199" weight="0.404219966329482">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.142" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="fatigue" id="200" weight="0.20886591085806022">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.532" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="weight_loss" id="201" weight="0.44496335913953067">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.06" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="breathlessness" id="202" weight="0.4460948473423522">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.058" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="vomiting" id="203" weight="0.21131440740787283">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.527" />
+        </attvalues>
+      </edge>
+      <edge source="Tuberculosis" target="malaise" id="204" weight="0.4278837185944071">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.144" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="swelled_lymph_nodes" id="205" weight="0.4619315434714597">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.026" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="phlegm" id="206" weight="0.4886727022071886">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.023" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="headache" id="207" weight="0.31867169996420563">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.313" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="cough" id="208" weight="0.4205288180018402">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.109" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="sinus_pressure" id="209" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="chest_pain" id="210" weight="0.4238399647305191">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.152" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="high_fever" id="211" weight="0.28067654362721517">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.389" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="chills" id="212" weight="0.37746699523529975">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.195" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="fatigue" id="213" weight="0.19180021831352795">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.566" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="redness_of_eyes" id="214" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="throat_irritation" id="215" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="runny_nose" id="216" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="continuous_sneezing" id="217" weight="0.48685560335525085">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.024" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="muscle_pain" id="218" weight="0.46546295385220904">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.069" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="loss_of_smell" id="219" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="congestion" id="220" weight="0.5354445090063916">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.071" />
+        </attvalues>
+      </edge>
+      <edge source="Common Cold" target="malaise" id="221" weight="0.3949151783870124">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.16" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="phlegm" id="222" weight="0.4905777773270318">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.031" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="cough" id="223" weight="0.4543996133874086">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.041" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="chest_pain" id="224" weight="0.4627256843331393">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.075" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="high_fever" id="225" weight="0.35160200506574857">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.247" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="chills" id="226" weight="0.41930218800218977">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.111" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="sweating" id="227" weight="0.43668133657840325">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.077" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="fatigue" id="228" weight="0.30017454670949595">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.35" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="fast_heart_rate" id="229" weight="0.5429618985228546">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.086" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="breathlessness" id="230" weight="0.4734278274540631">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.003" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="rusty_sputum" id="231" weight="0.5669014084507042">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.134" />
+        </attvalues>
+      </edge>
+      <edge source="Pneumonia" target="malaise" id="232" weight="0.4331054811692678">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.084" />
+        </attvalues>
+      </edge>
+      <edge source="Dimorphic hemmorhoids(piles)" target="bloody_stool" id="233" weight="0.6532769556025372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.307" />
+        </attvalues>
+      </edge>
+      <edge source="Dimorphic hemmorhoids(piles)" target="pain_during_bowel_movements" id="234" weight="0.6532769556025372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.307" />
+        </attvalues>
+      </edge>
+      <edge source="Dimorphic hemmorhoids(piles)" target="irritation_in_anus" id="235" weight="0.6532769556025372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.307" />
+        </attvalues>
+      </edge>
+      <edge source="Dimorphic hemmorhoids(piles)" target="constipation" id="236" weight="0.617537313432836">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.235" />
+        </attvalues>
+      </edge>
+      <edge source="Dimorphic hemmorhoids(piles)" target="pain_in_anal_region" id="237" weight="0.6532769556025372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.307" />
+        </attvalues>
+      </edge>
+      <edge source="Heart attack" target="chest_pain" id="238" weight="0.5515198052794761">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.103" />
+        </attvalues>
+      </edge>
+      <edge source="Heart attack" target="sweating" id="239" weight="0.5215514672936031">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.096" />
+        </attvalues>
+      </edge>
+      <edge source="Heart attack" target="breathlessness" id="240" weight="0.557779854036867">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.168" />
+        </attvalues>
+      </edge>
+      <edge source="Heart attack" target="vomiting" id="241" weight="0.44266182143490374">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.062" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="swollen_blood_vessels" id="242" weight="0.578413254569344">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.209" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="swollen_legs" id="243" weight="0.610029965321033">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.22" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="cramps" id="244" weight="0.610029965321033">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.22" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="prominent_veins_on_calf" id="245" weight="0.610029965321033">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.22" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="fatigue" id="246" weight="0.40627697791639994">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.187" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="obesity" id="247" weight="0.581658524519201">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.163" />
+        </attvalues>
+      </edge>
+      <edge source="Varicose veins" target="bruising" id="248" weight="0.610029965321033">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.22" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="enlarged_thyroid" id="249" weight="0.5533433508640122">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="cold_hands_and_feets" id="250" weight="0.5257514907545005">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.102" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="brittle_nails" id="251" weight="0.5533433508640122">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="dizziness" id="252" weight="0.48154375579487924">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.013" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="weight_gain" id="253" weight="0.5257514907545005">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.102" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="mood_swings" id="254" weight="0.5024596611905894">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.055" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="fatigue" id="255" weight="0.23474149783392567">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="-0.431" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="lethargy" id="256" weight="0.4595137347391786">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.031" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="swollen_extremeties" id="257" weight="0.5533433508640122">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.107" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="depression" id="258" weight="0.5300140662391992">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.06" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="puffy_face_and_eyes" id="259" weight="0.5257514907545005">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.102" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="irritability" id="260" weight="0.48485345676240477">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.03" />
+        </attvalues>
+      </edge>
+      <edge source="Hypothyroidism" target="abnormal_menstruation" id="261" weight="0.5288215979569499">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.058" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="restlessness" id="262" weight="0.5148331286264878">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.08" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="muscle_weakness" id="263" weight="0.5429618985228546">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.086" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="diarrhoea" id="264" weight="0.4543996133874086">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.041" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="sweating" id="265" weight="0.43668133657840325">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.077" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="mood_swings" id="266" weight="0.5148331286264878">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.08" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="fatigue" id="267" weight="0.30017454670949595">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.35" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="fast_heart_rate" id="268" weight="0.5136297838169102">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.077" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="weight_loss" id="269" weight="0.4723913384591244">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.005" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="irritability" id="270" weight="0.4983034652210369">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.003" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="excessive_hunger" id="271" weight="0.47135886694203544">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.007" />
+        </attvalues>
+      </edge>
+      <edge source="Hyperthyroidism" target="abnormal_menstruation" id="272" weight="0.5417545339519191">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.084" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="blurred_and_distorted_vision" id="273" weight="0.4861906978511579">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.022" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="nausea" id="274" weight="0.3637374339751237">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.223" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="headache" id="275" weight="0.3652315900653921">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.22" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="drying_and_tingling_lips" id="276" weight="0.5317095084363769">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.113" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="sweating" id="277" weight="0.4288504260895223">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.092" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="fatigue" id="278" weight="0.2810694324175391">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.388" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="anxiety" id="279" weight="0.5317095084363769">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.113" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="palpitations" id="280" weight="0.5595865423591406">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.119" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="irritability" id="281" weight="0.4911707057939955">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.018" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="excessive_hunger" id="282" weight="0.4932736662194697">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="-0.013" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="vomiting" id="283" weight="0.2826786349093494">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.385" />
+        </attvalues>
+      </edge>
+      <edge source="Hypoglycemia" target="slurred_speech" id="284" weight="0.5595865423591406">
+        <attvalues>
+          <attvalue for="1" value="120" />
+          <attvalue for="2" value="0.119" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="joint_pain" id="285" weight="0.5160528800755432">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.032" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="swelling_joints" id="286" weight="0.5969855832241154">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.194" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="neck_pain" id="287" weight="0.5969855832241154">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.194" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="hip_joint_pain" id="288" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="painful_walking" id="289" weight="0.5969855832241154">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.194" />
+        </attvalues>
+      </edge>
+      <edge source="Osteoarthristis" target="knee_pain" id="290" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Arthritis" target="movement_stiffness" id="291" weight="0.6532769556025372">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.307" />
+        </attvalues>
+      </edge>
+      <edge source="Arthritis" target="stiff_neck" id="292" weight="0.617537313432836">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.235" />
+        </attvalues>
+      </edge>
+      <edge source="Arthritis" target="muscle_weakness" id="293" weight="0.6158875768517615">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.232" />
+        </attvalues>
+      </edge>
+      <edge source="Arthritis" target="swelling_joints" id="294" weight="0.617537313432836">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.235" />
+        </attvalues>
+      </edge>
+      <edge source="Arthritis" target="painful_walking" id="295" weight="0.617537313432836">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.235" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="spinning_movements" id="296" weight="0.5968168059284368">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.246" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="unsteadiness" id="297" weight="0.6292305620225886">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.258" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="nausea" id="298" weight="0.47087534083080235">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.058" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="headache" id="299" weight="0.47180933605301434">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.056" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="loss_of_balance" id="300" weight="0.5722347808217009">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.144" />
+        </attvalues>
+      </edge>
+      <edge source="(vertigo) Paroymsal  Positional Vertigo" target="vomiting" id="301" weight="0.42745954222282073">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="-0.145" />
+        </attvalues>
+      </edge>
+      <edge source="Acne" target="skin_rash" id="302" weight="0.5406131457807417">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.081" />
+        </attvalues>
+      </edge>
+      <edge source="Acne" target="blackheads" id="303" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Acne" target="pus_filled_pimples" id="304" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Acne" target="scurring" id="305" weight="0.6604549628321278">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.374" />
+        </attvalues>
+      </edge>
+      <edge source="Urinary tract infection" target="burning_micturition" id="306" weight="0.6178998921391733">
+        <attvalues>
+          <attvalue for="1" value="108" />
+          <attvalue for="2" value="0.288" />
+        </attvalues>
+      </edge>
+      <edge source="Urinary tract infection" target="continuous_feel_of_urine" id="307" weight="0.6953183056725291">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.391" />
+        </attvalues>
+      </edge>
+      <edge source="Urinary tract infection" target="bladder_discomfort" id="308" weight="0.6953183056725291">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.391" />
+        </attvalues>
+      </edge>
+      <edge source="Urinary tract infection" target="foul_smell_of urine" id="309" weight="0.6254300604704504">
+        <attvalues>
+          <attvalue for="1" value="102" />
+          <attvalue for="2" value="0.356" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="silver_like_dusting" id="310" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="skin_rash" id="311" weight="0.5037770709574819">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.008" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="inflammatory_nails" id="312" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="skin_peeling" id="313" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="small_dents_in_nails" id="314" weight="0.6280841799709725">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.256" />
+        </attvalues>
+      </edge>
+      <edge source="Psoriasis" target="joint_pain" id="315" weight="0.5160528800755432">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.032" />
+        </attvalues>
+      </edge>
+      <edge source="Impetigo" target="skin_rash" id="316" weight="0.5213226709517054">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.043" />
+        </attvalues>
+      </edge>
+      <edge source="Impetigo" target="blister" id="317" weight="0.656421987180939">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.313" />
+        </attvalues>
+      </edge>
+      <edge source="Impetigo" target="high_fever" id="318" weight="0.4147993178724774">
+        <attvalues>
+          <attvalue for="1" value="102" />
+          <attvalue for="2" value="-0.065" />
+        </attvalues>
+      </edge>
+      <edge source="Impetigo" target="yellow_crust_ooze" id="319" weight="0.656421987180939">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.313" />
+        </attvalues>
+      </edge>
+      <edge source="Impetigo" target="red_sore_around_nose" id="320" weight="0.656421987180939">
+        <attvalues>
+          <attvalue for="1" value="114" />
+          <attvalue for="2" value="0.313" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
